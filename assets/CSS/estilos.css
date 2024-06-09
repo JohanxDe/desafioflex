@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.prueba{
+    display: flex;
+    background-color: #e8ebe4;
+}
+
+
+
+
+.menudos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 9em; */
+    min-height: 100vh;
+    background-color: white;
+    /* padding: 30px; */
+    border: solid 2px #e8ebe4    ;
+}
+
+.mari{
+    font-size: 16px;
+}
+
+.texto{
+    font-size: 14px;
+}
+
+.item{
+    flex-grow: 3;
+}
+
+.itemdos{
+    flex-grow: 3;
+    padding-left: px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.flex-item{
+    display: flex;
+}
+
+.maria{
+    display: flex;
+    /* align-items: center; */
+    border: solid 1px #e8ebe4;
+}
+
+.maria li{
+    list-style: none;
+    border: 0;
+    margin: 0;
+}
+
+.mariados{
+    display: flex;
+    flex-direction: column;
+    margin: 35;
+    padding-left: 5px;
+}
+
+.menudos img{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+button{
+    border-radius: 0px;
+    background-color: #a491d2;
+    padding: 15px 50px;
+    font-size: medium;
+    /* color: #fff */
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+    background-color: #e8ebe4;
+}
+
+.menu img{
+    width: 300px;
+    height: 300px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    border: solid 1px #e8ebe4;
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+}
+
+.listas-chat{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+ul{
+    margin: 35px;
+    padding: 0;
+}
