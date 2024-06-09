@@ -70,12 +70,16 @@
     margin: 0;
 }
 
-button{
-    border-radius: 0px;
+.bt-primary{
     background-color: #a491d2;
+    text-decoration: none;
     padding: 15px 50px;
-    font-size: medium;
-    /* color: #fff */
+    align-items: center;
+    color: white;
+}
+
+.bt-primary:hover{
+    background-color: #cdc3e6;
 }
 
 .menu{
